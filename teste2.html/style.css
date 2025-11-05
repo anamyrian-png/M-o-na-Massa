@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
-/* Reset básico para tirar margens e espaçamentos padrões */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Corpo do site (cor de fundo e fonte principal) */
+/* Corpo do site  */
 body {
     font-family: "Poppins", sans-serif;
     background-color: #fff8f6;
@@ -57,7 +57,7 @@ body {
     border-radius: 20px;
 }
 
-/* Página ativa (destacar o botão atual) */
+
 .menu a.ativo {
     color: #fff;
     background-color: #b96c5e;
@@ -66,7 +66,7 @@ body {
 }
 
 
-/* Bloco transparente para introdução */
+
 .intro {
     background-color: rgba(255, 255, 255, 0.7); /* Fundo transparente */
     padding: 30px;
@@ -118,12 +118,12 @@ body {
     font-size: 22px;
     cursor: pointer;
     margin: 5px;
-    color: #b96c5e; /* cor dos ícones */
+    color: #b96c5e; 
     transition: 0.3s;
 }
 
 .btn-social button:hover {
     background-color: #e8b5aa;
-    color: white; /* muda a cor do ícone ao passar o mouse */
+    color: white; 
 }
 
